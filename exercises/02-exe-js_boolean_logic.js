@@ -6,9 +6,13 @@ let x = 5;
 let y = "5";
 console.log(`What is this: ${x == y}`); // ==> ??
 
+let a = true;
+let b = false;
+console.log(`What is this: ${a == b}`)
 // === compares using value and type (strict equality)
 
 console.log(`What is this: ${x === y}`); // ==> ??
+console.log(`What is this: ${a === x}`); // ==> ??
 
 // falsy values - will evaluate as FALSE
 // - false
